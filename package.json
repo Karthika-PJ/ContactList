@@ -6,6 +6,9 @@
     "express": "^4.14.0",
     "mongodb": "^2.2.2",
     "mongojs": "^2.4.0"
-  }
+  },
+  "scripts": {
+  "test": "vows --spec"
+}
 
 }
