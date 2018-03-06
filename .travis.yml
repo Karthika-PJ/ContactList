@@ -3,3 +3,10 @@
 language: node_js
 node_js:
   - 6.9.5
+deploy:
+  provider: heroku
+  api_key:
+    secure: "la+GEblroLRUvt+SwWZ6EZWFGWP2zpnPjJMUk8eTdPWG16nFYfOggPnLjDGi8mb+XG1XZeDWqdiInyWxqlGeB43ac1ZH4fp0g1hs9/3DUODpYnQeeTqe4rcb0IerKqusPw+JhPS3vKz7CnX8xl8f2Qw3HliBeIUn480dNJbuJ0bWuVajCkFJU9qKhc5Ip1jxsBKDeOnewnDxHGcwFaxaFyGY/bVxFQowThh62wVGG/5lbA6Hw+WfnS6nc6VlIdllt14m9MOI1RBNlScDubfTsvzGJeMYKeK1tN5E1O/n5ISTqgGz2bEK/STGu2Y1N6FE5atiyfC9Xd+8eGAfXRuhRXDdQXU7GQYR+mQ04853cqDQQ8+q+8DOvY4ZxPTXwIY4Vp4euUzsF0oR6yUhuajkEoyk6k3O6cYLq2HzK72IUj+JgGO4c2qVX75ymtoCDh7RpXFn5jDjlKVgj8yf9clQ2PfpNiFV5DJPVkxESg0Xv3/s9RAwLMAMqVaA0fqRpFXYu1MDW9cP8d2cnoflSvCiUboGCOzas02l6oGFt49Di90h8O9Am9xN0v/t6KuAjUfBdtneVvAMTHegMAH4/pTrVuahY6wDmpZt/Y6Py/LJipS7VYJynocgQ7viYSUl9xGkKWbZnDV8+0HAy3ME2ghIBbgJJzBBhSGuW6RLc1uqRvw="
+  app: ContactList
+  on:
+    branch: master
