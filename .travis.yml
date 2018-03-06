@@ -3,11 +3,3 @@
 language: node_js
 node_js:
   - 6.9.5
-deploy:
-  provider: heroku
-   app: ContactList
-   heroku config:add \
-    HEROKU_OAUTH_ID=63d9babd-cf2c-4802-aa19-c86cb1129e25 \
-    HEROKU_OAUTH_SECRET=ec40c9ea-b905-451a-acb4-1ab230f1ff81
-    secure: "AK0Pqqr9fD5l59l42Nd5NrNlt/6jf4HPwx07+q5F93c530bEUvqTqXQkz7Vx0t4ZHJMT3h5i7QfgxQvEd1edIa3lfOYXJdRe9CTsU8hf2kIGz4RGI3LmOAEzAtY2xGRoVuO9qEo5pdpfFFuZBgKvnQFZSd8yAeD9m01tc7/vUMtxYDVdG44bj5I1gdpU2mYuB3J96ZtIFcZOtYNpiBehwWOH/vu8ztjuNJLqWT2W8pVGvxqODIxEQAI37JTlbMpXe/QIh1cXXkWrU98bE+1GxE+7NVj+HjOyQzYy4j2+Re1CDxjMSUFtuRk2op9hzsS51Snjk8rnSyGQWtusG/aHUgxPVIqSsKcPB9eNyl/h3aTgknFtjMIOZjaIMFm2IYORW0cXvr2SKT68n7avNxRRT79WKeq6o/WkAgOJ3ohlHE4hDmImw6T0z/HfAKeytQQGUqCB+iXlolOlsrm0byQIT9q7QncMYeadD9+T/RN3UJOkAwS143R02nSqbIo405MprGJSG5OGjvdHRybVb7T/uadvth0NVOVam3gesxP6XtWNkSCzZNwmHKad5RBuRNgC2aeiLpKqr8ZfkiNziDbX59kjzMRogn2DWMuPe6LFnwmTWxMfX6dnTDJ25F10nJm2659E/emYHATsdu6bLvNn+Bx7nh3poFTGOxYIpoU1nIU="
-    repo: karthikakarthi/ContactList
